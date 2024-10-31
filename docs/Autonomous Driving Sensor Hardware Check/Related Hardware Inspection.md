@@ -36,17 +36,17 @@
     ![avatar](./image/gnss_picture/Snipaste_2023-04-21_17-37-29.png)
 
 ## Camera Inspection
-- Remote Monitoring Cameras: 7 total — 1 below the left front LiDAR, 1 below the right front LiDAR, 1 below the left rear LiDAR, 1 below the right rear LiDAR, 1 at the front, 1 at the rear, and 1 inside the vehicle.
+- Remote Monitoring Camera \*7: Below Left Front Radar \*1, Below Right Front Radar \*1, Below Left Rear Radar \*1, Below Right Rear Radar \*1, Directly in Front \*1, Directly in Rear \*1, Inside the Car \*1;
 
 ![jiankong](./image/jiankong.png)
 
-- Visual Perception Cameras* 2 ：Front of vehicle* 1, top of front of vehicle* 1
+- Visual Perception Cameras\* 2 ：Front of vehicle\* 1, Front top of vehicle\* 1
 
 ![camera2](./image/camera2.png)
 ![camera1](./image/camera1.png)
 
 ## Ultrasonic Radar Inspection
-- Ultrasonic Radar Sensors: 12 total — 4 at the front, 4 at the rear, 2 on the left side, and 2 on the right side.
+- Ultrasonic Radar Probe\*12: Front\*4,Rear\*4, Left\*2, Right\*2.
 
 ![ult2](./image/ult2.png)
 ![ult3](./image/ult3.png)
