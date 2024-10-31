@@ -14,7 +14,7 @@
  limitations under the License.
 -->
 
-# Robo-Bus Documentation-CN
+# Robo-Bus documentation-EN
 
-- 该仓库包含了[MkDocs](https://www.mkdocs.org/)源文件，内容呈现在[挂载在github服务器上的页面](https://www.pixmoving.com).
+- This repository contains the [MkDocs](https://www.mkdocs.org/) source files, with the content displayed on the [page hosted on GitHub servers](https://www.pixmoving.com).
 - ** TBD **
