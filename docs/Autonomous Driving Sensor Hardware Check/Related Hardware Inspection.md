@@ -1,7 +1,9 @@
 # Autonomous Driving Hardware Inspection
 
 ## LiDAR Inspection
-- Launch the terminal with Ctrl+Alt+t: Username: pixbus, Password: pixmoving
+- Launch the terminal with Ctrl+Alt+t: 
+    - Username: pixbus
+    - Password: pixmoving
 1. Left Front LiDAR IP: 192.168.1.120
 2. Right Front LiDAR IP: 192.168.1.122
 3. Left Rear LiDAR IP: 192.168.1.123
@@ -11,12 +13,14 @@
 ![lidar-point](./image/lidar-point.png)
 
 ## GNSS Inspection
-### Login to the Integrated Navigation Interface
-- Open a browser and enter the address 192.168.4.45 in the address bar. A login interface will appear. Username: admin, Password: password.
+### Log in to the Integrated Navigation Interface
+- Open a browser and enter the address 192.168.4.45 in the address bar. A login interface will appear. 
+    - Username: admin
+    - Password: password.
 
 ![gnss](./image/gnss1.png)
 
-- Navigate to the IO Configuration interface, select “RTK Client,” click “Connect.” You can choose NTRIP/TCP/APIS protocol, enter the relevant account and password, and then click “OK.”
+- Navigate to the IO Configuration interface, select “RTK Client,” click “Connect.” You can choose NTRIP/TCP/APIS protocol, enter the account and password, and then click “OK.”
 
 ![avatar](./image/gnss_picture/Snipaste_2023-04-21_17-15-11.png)
 
@@ -27,12 +31,12 @@
 **Note 3**: RTK supports foreign differentials, but it must ensure that the base station broadcasts standard RTCM statements. Both domestic and international systems support satellites: GPS, Beidou, Galileo, GLONASS, and Quasi-Zenith.
 
 ### GNSS Calibration
-- Real Vehicle Operation: The INS mode first uses satellite navigation, then initializes, and finally combines inertial navigation. The vehicle must be taken outdoors, preferably in an open area without tall obstructions. The vehicle undergoes GNSS calibration before leaving the factory, ensuring RTK and network functionality. The vehicle should drive at a speed of 15 km/h for about twenty minutes for successful calibration. If the INS mode remains unchanged, check whether the RTK account has successfully logged in and if the network communication is normal.
-1. Inertial Navigation Status: INS mode is Satellite Navigation;
+- Vehicle Operation: Ins Mode is initially in Guardian state, then Initialization state, and finally Navigation state. The vehicle must be taken outdoors, preferably in an open area without tall obstructions. The vehicle was GNSS calibrated before leaving the factory ensuring RTK and network functionality. The vehicle should drive at a speed of 15 km/h for about twenty minutes for successful calibration. If the INS mode remains unchanged, check whether the RTK account has successfully logged in and if the network communication is normal.
+1. Inertial Navigation Status: INS mode is Guardian;
     ![avatar](./image/gnss_picture/Snipaste_2023-04-21_17-36-06.png)
 2. Inertial Navigation Status: INS mode is Initialization;
     ![avatar](./image/gnss_picture/Snipaste_2023-04-21_17-36-52.png)
-3. Inertial Navigation Status: INS mode is Combined Inertial Navigation; combination information is GNSS | MIU
+3. Inertial Navigation Status: INS mode is Navigation; Combination Info is GNSS | IMU 
     ![avatar](./image/gnss_picture/Snipaste_2023-04-21_17-37-29.png)
 
 ## Camera Inspection

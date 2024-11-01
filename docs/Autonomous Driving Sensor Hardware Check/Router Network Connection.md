@@ -1,6 +1,6 @@
 # Router Hardware Inspection
 
-- The domestic RoboBus router is located on the left side of the rear compartment, while the international RoboBus router is on the left side of the front compartment (for Hong Kong and Macau). You can see it by opening the compartment cover.
+- The left-hand drive RoboBus router is located on the left side of the rear compartment, while the right-hand drive RoboBus router is on the left side of the front compartment (for Hong Kong and Macau). You can see it by opening the compartment cover.
 
 ![covers](./image/covers.png)
 
@@ -12,4 +12,4 @@
 
 - Refer to the router's user manual:  [F-R200](./image/F-R200.pdf)
 
-**Note**: Ensure you locate the router before starting the device and prepare the IoT card (overseas customers need to prepare their own IoT card, including those for Hong Kong and Macau).
+**Note**: Ensure you find the router and prepare the IoT card before starting the device(overseas customers need to prepare their own IoT card, including those for Hong Kong and Macau).
