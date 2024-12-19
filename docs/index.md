@@ -64,9 +64,7 @@
 ## Contact Us  
 RoboBus is a fully electric, drive-by-wire unmanned bus developed by PIX Moving, supporting both remote control driving and autonomous driving modes. If you have any questions during use, please contact the PIX Moving after-sales service center for the latest support. If you are interested in PIX or the products we offer, feel free to reach out to us. PIX looks forward to collaborating with global enterprises, organizations, and pioneers across various fields to drive innovation and transformation in the automotive industry and urban environments.
 
-- Ecological Cooperation:<chase@pixmoving.com>
-- Business Cooperation: <sean@pixmoving.com>
-- Media Inquiries:<yoki@pixmoving.com>
+- PIX Contact：nancy@pixmoving.com
 - For more information about our products:
 
-![E-mail](./images/E-mail2.png)
+![E-mail](./images/E-mail3.png)
